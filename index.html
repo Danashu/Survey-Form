@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Private Kindergarten Survey Form
+    </title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Private Kindergarten Survey Form</h1>
+    <p id="description">
+      Thank you for taking time to fill out our survey! Your input is valuable to us as we strive to provide the best possible educational experience for your child.
+    </p>
+    <form id="survey-form" action="" method="post">
+    <fieldset>
+
+      <label id="name-label">Name <input id="name" type="text" placeholder="Enter your name" required />
+      </label>
+
+      <label id="email-label">Email <input id="email" type="email" name="email-label" placeholder="Enter your Email" required />
+      </label> 
+
+      <label id="number-label">Age <input id="number" type="number" min="0" max="7" placeholder="0"/>
+      </label>
+  <h2>How do you feel about the idea of your child attending a private kindergarten?</h2>
+      <label for="dropdown">
+      <select id="dropdown" 
+name="dropdown">
+        <option value="">(select one)</option>
+        <option value="1">Very excited!</option>
+        <option value="2">Excited, but have some concerns.</option>
+        <option value="3">Neutral, need more information.</option>
+        <option value="4">Not sure yet, need to discuss it.</option>
+       </select>
+       </label>
+<h2>What is your child's favorite activity?</h2>
+       <label for="Indoor Activities"><input id="Indoor Activities" type="radio" name="Activity-type" value="Indoor Activities">Indoor Activities </input>
+       </label>
+       <label for="Outdoor Activities">
+       <input id="Outdoor Activities" type="radio" name="Activity-type" value="Outdoor Activities"> Outdoor Activities</input>
+        </label> 
+        <label for="Other Fun Activities">
+        <input id="Other Fun Activities" type="radio" name="Activity-type" value="Other Fun Activities"> Other Fun Activities</input>
+        </label>
+<h2>Please select the developmental areas in which you believe your child excels the most:</h2>
+<label>
+  <input type="checkbox" value="cognitive">
+  Cognitive
+    </input>
+</label>
+<label>
+  <input type="checkbox" value="Creative">
+  Creative
+    </input>
+</label>
+<label>
+  <input type="checkbox" value=" Motor Skills and Physical Development">
+   Motor Skills and Physical Development
+    </input>
+</label>
+<label>
+  <input type="checkbox" value=" Pro-social Skills">
+   Pro-social Skills
+    </input>
+</label>
+<label>
+  <input type="checkbox" value=" Language & Literacy">
+   Language & Literacy
+    </input>
+</label>
+<p>We deeply care about your child's health and safety. If your child has any allergies, medical conditions, or unique requirements that you believe we should be aware of, please take a moment to provide us with this important information. Your input will help us ensure that we create a nurturing and secure environment for your child's growth and development.</p>
+ <label> 
+ <textarea rows="3" cols="30" placeholder="Please Share Details..." ></textarea>
+ </label>
+    </fieldset>  
+ <input type="Submit" value="Submit" id="submit"/>
+    </form>
+  </body>
+</html>
